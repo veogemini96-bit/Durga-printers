@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate, Link, useLocation } from 'react-router-dom';
-import { Mail, Lock, User, Phone, LogIn, UserPlus, ArrowRight } from 'lucide-react';
+import { Mail, Lock, User, Phone, LogIn, UserPlus, ArrowRight, Printer } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 
 export default function Login() {
@@ -55,8 +55,11 @@ export default function Login() {
       <div className="w-full max-w-md">
         {/* Logo */}
         <div className="text-center mb-8">
-          <Link to="/" className="inline-block mb-5">
-            <img src="/Spark.svg" alt="Durga Printers" className="h-12 mx-auto" />
+          <Link to="/" className="inline-flex items-center gap-2.5 mb-5">
+            <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-600 text-white shadow-sm shadow-blue-200">
+              <Printer className="h-5 w-5" />
+            </span>
+            <span className="text-xl font-bold tracking-tight text-gray-900">Durga Printers</span>
           </Link>
           <h1 className="text-2xl font-bold text-gray-900 mb-1">
             {isLogin ? 'Welcome back' : 'Create account'}

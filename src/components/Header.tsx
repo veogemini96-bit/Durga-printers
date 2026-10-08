@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, ShoppingCart, Phone, Heart, Package, User, ChevronDown, Sparkles } from 'lucide-react';
+import { Menu, X, ShoppingCart, Phone, Heart, Package, User, ChevronDown, Sparkles, Printer } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import { useWishlist } from '../context/WishlistContext';
 import { useAuth } from '../context/AuthContext';
@@ -88,11 +88,12 @@ export default function Header() {
 
             {/* Logo */}
             <Link to="/" className="flex items-center shrink-0 group">
-              <img
-                src="/Spark.svg"
-                alt="Durga Printers Logo"
-                className="h-11 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
-              />
+              <div className="flex items-center gap-2.5 transition-transform duration-300 group-hover:scale-105">
+                <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-blue-600 text-white shadow-sm shadow-blue-200">
+                  <Printer className="h-5 w-5" />
+                </span>
+                <span className="text-lg font-bold tracking-tight text-gray-900">Durga Printers</span>
+              </div>
             </Link>
 
             {/* Desktop Nav */}
