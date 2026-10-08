@@ -1,0 +1,30 @@
+export const BUSINESS_CONFIG = {
+  name: 'Spark Office Products',
+  tagline: 'Premium Printing Solutions Since 1985',
+  phone: '+91 96006 02819',
+  phoneRaw: '919600602819',
+  phoneAlt: '+91 86376 89485',
+  email: 'durgaprints.orders@gmail.com',
+  emailOrders: 'orders@durgaprinthub.com',
+  address: {
+    line1: '6, Rangaswamy St',
+    line2: 'Gugai',
+    city: 'Salem',
+    state: 'Tamil Nadu',
+    pincode: '636006',
+    country: 'India',
+  },
+  addressString: '6, Rangaswamy St, Gugai, Salem, Tamil Nadu 636006',
+  mapsUrl: 'https://maps.app.goo.gl/QvQDzZev6cp22oi76',
+  businessHours: {
+    weekdays: 'Monday - Saturday: 9:00 AM - 7:00 PM',
+    sunday: 'Sunday: Closed',
+  },
+  social: {
+    facebook: 'https://www.facebook.com/durgaprinthub',
+    instagram: 'https://www.instagram.com/durgaprinthub',
+    twitter: 'https://twitter.com/durgaprinthub',
+    whatsapp: 'https://wa.me/919600602819',
+  },
+  whatsappMessage: 'Hi! I would like to inquire about your printing services.',
+};
