@@ -68,7 +68,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
               <img
                 src="/WhatsApp_Image_2026-03-17_at_5.26.17_PM.jpeg"
                 alt="Durga Printers"
-                className="h-11 w-auto"
+                className="h-12 w-48 object-cover object-center"
               />
               <p className="text-xs text-gray-500 mt-1 font-medium">Admin Panel</p>
             </div>

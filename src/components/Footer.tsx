@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Mail, Phone, MapPin, Facebook, Instagram, Twitter, ArrowUpRight, Printer } from 'lucide-react';
+import { Mail, Phone, MapPin, Facebook, Instagram, Twitter, ArrowUpRight } from 'lucide-react';
 import { BUSINESS_CONFIG } from '../lib/config';
 
 export default function Footer() {
@@ -11,12 +11,11 @@ export default function Footer() {
 
           {/* Brand column */}
           <div className="lg:col-span-4">
-            <div className="flex items-center gap-3 mb-5">
-              <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-600 text-white">
-                <Printer className="h-5 w-5" />
-              </span>
-              <span className="text-xl font-bold tracking-tight text-white">Durga Printers</span>
-            </div>
+            <img
+              src="/WhatsApp_Image_2026-03-17_at_5.26.17_PM.jpeg"
+              alt="Durga Printers Logo"
+              className="h-14 w-52 object-cover object-center mb-5"
+            />
             <p className="text-gray-400 text-sm leading-relaxed mb-6 max-w-xs">
               Premium printing solutions since 1985. Your trusted partner for wedding invitations, bags, and office supplies across India.
             </p>

@@ -56,7 +56,7 @@ export default function Login() {
             <img
               src="/WhatsApp_Image_2026-03-17_at_5.26.17_PM.jpeg"
               alt="Durga Printers Logo"
-              className="h-16 w-auto mx-auto mb-4"
+              className="h-20 w-64 object-cover object-center mx-auto mb-4"
             />
             <h2 className="text-3xl font-bold text-blue-700">Admin Login</h2>
             <p className="text-gray-600 mt-2">Sign in to manage your store</p>
